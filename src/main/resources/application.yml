@@ -5,6 +5,10 @@ spring:
     password: 6196508
 
 
-    jpa:
-      hibernate:
+  jpa:
+    hibernate:
         ddl-auto: update
+        show-sql: true
+
+server:
+      port: 8090
